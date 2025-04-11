@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-#contact-header {
+#about-header {
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -43,4 +43,27 @@
 
 body {
     background: lightskyblue
+}
+
+#body-container {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: hsla(0, 0%, 100%, .6);
+    display: grid;
+    grid-template-columns: 30% 45%;
+}
+
+#about-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#resume-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#resume-image {
+    width: 100%;
+    height: auto;
 }
