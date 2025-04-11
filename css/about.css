@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 1rem
+}
+
 #about-header {
     background-color: white;
     display: flex;
@@ -46,24 +51,63 @@ body {
 }
 
 #body-container {
-    margin: 2rem;
-    padding: 1rem;
-    background-color: hsla(0, 0%, 100%, .6);
     display: grid;
-    grid-template-columns: 30% 45%;
+    grid-template-columns: 38% 62%;
+    height: 90vh;
 }
 
 #about-container {
-    margin-left: 5%;
-    margin-right: 5%;
+    height: 100%;
+    background-color: grey;
+}
+
+#profile-image {
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%
+}
+
+#about-me {
+    font-family: "Poppins", sans-serif;
+    font-size: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
 }
 
 #resume-container {
-    margin-left: 5%;
-    margin-right: 5%;
+    height: 100%;
 }
 
+#resume {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    padding: 5%;
+    background-color: hsla(0, 0%, 100%, .6);
+    width: 80%;
+}
 #resume-image {
     width: 100%;
     height: auto;
+}
+
+#download-resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+#download-button {
+    font-size: 100%;
+    
+}
+
+#download-resume {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
 }
